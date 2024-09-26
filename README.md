@@ -7,6 +7,25 @@
 
 ![](https://github.com/sergiomos/projeto-eng-software/blob/main/processo%20de%20venda%20faturamento%20e%20nps.png)
 
+## Modelo de Processo de Software
+
+O Scrum será a metodologia adotada para o desenvolvimento do nosso e-commerce. Essa escolha se justifica pela necessidade de flexibilidade para acompanhar as rápidas mudanças do mercado e entregar valor continuamente aos nossos clientes. Além disso, o Scrum promove a colaboração entre o time, a gestão de riscos e a adaptação a novas demandas, garantindo que nosso e-commerce esteja sempre alinhado com as expectativas do mercado.
+
+## Stakeholders do Software 
+
+•  Clientes: Indivíduos que compram as artes.
+•  Vendedores: Artistas que cadastram e vendem suas obras no e-commerce.
+•  Equipe de Desenvolvimento: Profissionais responsáveis pela construção do software.
+•  Equipe de Marketing: Responsável pela promoção do e-commerce.
+•  Equipe de Suporte: Responsável por atender aos clientes e vendedores.
+•  Gestão: Responsável pela tomada de decisões estratégicas e pela gestão do projeto.
+
+##Técnica de Coleta de Requisitos 
+Entrevistas: Com os vendedores e clientes para entender suas necessidades e expectativas.
+
+Brainstorm: Para reunir os stakeholders e definir os requisitos de forma colaborativa.
+
+Documentação existente: Análise de e-commerces similares para identificar funcionalidades comuns e melhores práticas.
 
 ## Requisitos do Software
 
