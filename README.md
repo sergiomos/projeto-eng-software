@@ -5,11 +5,29 @@
 
 ---
 
-![](https://github.com/sergiomos/projeto-eng-software/blob/main/processo%20de%20venda%20faturamento%20e%20nps.png)
+![image](https://github.com/user-attachments/assets/11f29bd8-23c6-4c62-96cd-abbd2b63a6ca)
+![image](https://github.com/user-attachments/assets/1fb245a2-00f8-4bb7-b789-fe9c18f2d6d7)
+![image](https://github.com/user-attachments/assets/308ee1f9-2951-47e0-9d87-ec9d97ff5540)
+
 
 ## Modelo de Processo de Software
 
 O Scrum será a metodologia adotada para o desenvolvimento do nosso e-commerce. Essa escolha se justifica pela necessidade de flexibilidade para acompanhar as rápidas mudanças do mercado e entregar valor continuamente aos nossos clientes. Além disso, o Scrum promove a colaboração entre o time, a gestão de riscos e a adaptação a novas demandas, garantindo que nosso e-commerce esteja sempre alinhado com as expectativas do mercado.
+
+## Detalhamento dos Processos
+![image](https://github.com/user-attachments/assets/d397a895-2613-495e-82a5-e2b631c6e226)
+![image](https://github.com/user-attachments/assets/104c2e76-35fa-4657-8549-adabf9d9849f)
+![image](https://github.com/user-attachments/assets/63e2bb9d-3369-4c20-9fd7-d563ab7cecd7)
+![image](https://github.com/user-attachments/assets/3f9f51ba-3819-4559-bf43-1ad288707e0b)
+![image](https://github.com/user-attachments/assets/5c81b416-92f1-4964-b556-df6d1be509ee)
+![image](https://github.com/user-attachments/assets/659dd98e-6dfc-4e3f-a58c-fd525cbfbffd)
+![image](https://github.com/user-attachments/assets/b52eb792-0788-4540-9c2e-64a8ac74d0d6)
+![image](https://github.com/user-attachments/assets/b07ae4d3-af46-495e-9064-597713a1e4bb)
+![image](https://github.com/user-attachments/assets/a616a519-ab59-4a57-b40f-00146b0128d0)
+
+![image](https://github.com/user-attachments/assets/fdb43edd-1962-4b20-96d1-a53e3c7e3c0d)
+
+
 
 ## Stakeholders do Software 
 
@@ -183,4 +201,69 @@ Critérios de Aceitação:
 
 O sistema deve permitir a geração de relatórios com vendas por período, produtos mais vendidos e receita total.
 Os relatórios devem estar disponíveis para download em formato PDF.
+
+## Protótipos
+
+![image](https://github.com/user-attachments/assets/1b544ded-61a2-4a04-bb14-6ad0b7b625c2)
+
+![image](https://github.com/user-attachments/assets/ada804c8-6c0b-4433-98c4-869c337dbb4b)
+
+
+![image](https://github.com/user-attachments/assets/60ede6e5-d585-4ae8-a11a-ec4ef5ec30d9)
+
+![image](https://github.com/user-attachments/assets/7b758771-f199-483a-b64b-280b50b03b10)
+
+![image](https://github.com/user-attachments/assets/deeb875b-b743-46cd-a871-9ba5f764f3dd)
+
+## Diagrama de Casos de Uso
+
+![image](https://github.com/user-attachments/assets/ce7666be-4d1e-49a2-8c91-07c4df862daa)
+
+## Diagrama de Domínio
+
+![image](https://github.com/user-attachments/assets/9b9616ed-24cd-4da3-b921-4b511ddcd598)
+
+## Projeto de Arquitetura
+Para o e-commerce focado em arte, a arquitetura do sistema deve suportar uma experiência rica e visual, otimizar o desempenho para grandes volumes de imagens e integrar funcionalidades voltadas para a comercialização de obras de arte. Abaixo segue uma proposta detalhada com a estrutura, componentes e propriedades do sistema.
+
+### Organização Geral do Sistema
+O sistema será dividido em camadas para organizar as funcionalidades e facilitar a manutenção. Proponho as seguintes camadas:
+
+- Camada de Apresentação (Frontend): Interface do usuário, responsiva e otimizada para dispositivos móveis.
+- Camada de Aplicação (Backend): Gerenciamento de lógica de negócios, processamento de pedidos, e integração com APIs.
+- Camada de Persistência de Dados (Banco de Dados): Armazenamento de informações de usuários, produtos, pedidos e transações.
+- Camada de Infraestrutura: Rede, servidores, e outros recursos de suporte.
+
+### Estrutura Geral do Sistema
+A estrutura inclui três partes principais:
+
+- Frontend (Aplicativo Web e Mobile): Frameworks como React para web e React Native para mobile, com interfaces intuitivas que priorizam o carregamento rápido de imagens.
+- Backend (APIs e Lógica de Negócio): Servidores em Node.js com Express.js ou em Python com Django, expostos por meio de APIs REST ou GraphQL.
+- Banco de Dados e Armazenamento:
+  -   Banco de dados relacional, como PostgreSQL, para manter informações estruturadas.
+  -   Banco de dados NoSQL, como MongoDB, para dados mais flexíveis.
+  -   Armazenamento em nuvem, como AWS S3, para arquivos de imagem.
+ 
+### Componentes Estruturais Principais
+- Interface do Usuário: Acesso a catálogo de artes, filtros por estilo, artista e preço, além de uma galeria para apresentação detalhada.
+- Carrinho de Compras: Persistente e conectado a um sistema de pagamentos seguro.
+- Sistema de Pagamento: Integração com provedores como Stripe ou PayPal.
+- Gerenciamento de Conteúdo (CMS): Um painel para artistas e administradores publicarem obras.
+- Motor de Busca e Filtragem: Sistema de pesquisa avançado e filtros de categoria.
+- Painel do Artista: Área restrita para que artistas acompanhem vendas e status de pedidos.
+- Painel do Administrador: Gerenciamento de catálogo, análises de desempenho e controle de usuários.
+
+### Padrões Reutilizáveis (Famílias de Sistemas)
+Para acelerar o desenvolvimento e garantir boas práticas, sugiro o uso dos seguintes padrões:
+
+- Model-View-Controller (MVC) para organização do backend.
+- Padrão de Microserviços para escalabilidade e modularidade.
+- Design de Interface Responsivo para compatibilidade com diferentes dispositivos.
+- Patters de Segurança (ex., proteção contra CSRF e XSS) para garantir a proteção dos dados do usuário.
+
+
+
+
+
+
 
